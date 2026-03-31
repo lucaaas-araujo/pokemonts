@@ -1,8 +1,12 @@
 import readlinesync = require("readline-sync");
+import { Agua } from "./src/model/Agua";
 
 export function main(){
 
     let opcao: number;
+
+    const pokemons: Agua = new Agua(1, "Squirtle", "Água", 1);
+    pokemons.visualizar();
 
     while(true){
         console.log("******************************************************");

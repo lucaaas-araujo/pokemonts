@@ -140,10 +140,10 @@ export function main(){
     }
 }
 
+main();
+
 function keyPress(): void {
     console.log(colors.reset, "");
     console.log("\nPressione ENTER para continuar...");
     readlinesync.prompt();
 }
-
-main();
